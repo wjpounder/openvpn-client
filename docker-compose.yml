@@ -21,7 +21,7 @@ services:
     stdin_open: true
     tty: true
     volumes:
-      - /dev/net:/dev/net:z
+      - ./vpn:/volume1/vpnarea
     # Put .ovpn configuration file in the /vpn directory (in "volumes:" above or
     # launch using the command line arguments, IE pick one:
     #  - ./vpn:/vpn
